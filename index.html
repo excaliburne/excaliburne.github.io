@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Sudeep Gumaste">
+    <link rel="stylesheet" href="./styles/style.main.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+	<script src="index.js"></script>
+    <!-- <link rel="icon" href="/images/favicon.ico?" type="image/x-icon"> -->
+    <title>Excaliburne</title>
+</head>
+
+<body>
+    <nav class="nav">
+        <h1 class="nav-brand">
+            &ltEXCA/&gt
+        </h1>
+        <ul class="nav-links" orientation="right">
+            <!-- <li>
+                <a href="">
+                    About Me
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    Experience
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    Projects
+                </a>
+            </li> -->
+            <li>
+                <a href="#contact">
+                    Get in Touch
+                </a>
+            </li>
+            <li>
+                <a href="#" class="button">
+                    Resume
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section class="home" id="home">
+            <div class="container">
+                <h4>. / X</h4>
+                <h1>Excaliburne / Jeremy</h1>
+                <h2>A reference page</h2>
+                <p>Software development and QA engineering passionate</p>
+                <button>Contact Me!</button>
+                <div class="home__contact">
+                    <a href="https://github.com/excaliburne">
+                        <img src="./assets/logos/github-logo.svg" alt="github">
+                    </a>
+                    <a href="https://gitlab.com/dashboard/projects">
+                        <img src="./assets/logos/gitlab.svg" alt="gitlab">
+                    </a>
+                    <a href="https://www.linkedin.com/in/j%C3%A9r%C3%A9my-faret-aa1964131/">
+                        <img src="./assets/logos/linkedin.svg" alt="linkedin">
+                    </a>
+                </div>
+
+                <h2>/ Projects</h2>
+
+                    <a href="https://github.com/excaliburne/Selenium_test_stanwood">
+                        <p>Implementation of Selenium test framework + integration with Travis</p>
+                    </a>
+
+                    <a href="https://gitlab.com/excaliburne/django-estonian-board">
+                        <p>Estonian dev job board !Still in construction!</p>
+                    </a>
+
+
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="container">
+                <h1>Contact Me</h1>
+                <form class="contact__form" action="https://formspree.io/mlebywbn" method="POST">
+                    <input required type="text"  name="name" placeholder="Your name ">
+                    <input required type="email"  name="email" placeholder="Your email">
+                    <input required type="text"  name="subject" placeholder="Subject">
+                    <textarea required name="description" placeholder="Message" rows="9"></textarea>
+                    <button class="button" type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
